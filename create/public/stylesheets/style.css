@@ -1,0 +1,240 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+
+
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+.button {
+  font: bold 11px Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+}
+
+#login {
+  background-color: rgba(0, 153, 204, 0.7) !important;
+  border-style: solid;
+  border-color: rgba(0, 153, 204, 0.7) !important;
+  color: white !important;
+  border-radius: 3px;
+}
+
+#login:hover {
+   background-color: white !important; 
+    color: rgba(0, 153, 204, 0.7) !important;;
+}
+
+
+html,
+body {
+  background-image: url(https://vetstreet-brightspot.s3.amazonaws.com/2f/74/2f250fd440febe6d68496a0ce59d/american-bulldog-ap-8qurvy-645-x-380.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Do Hyeon', sans-serif;
+  color: rgb(57, 115, 172);
+
+}
+
+#header {
+  text-align: center;
+  background-color: rgba(0, 153, 204, 0.7);
+  color: white;
+  margin-right: 45%;
+  margin-left: 0%;
+  border-style: solid;
+  border-color: white;
+  padding: 5px;
+  margin-bottom: 15px;
+}
+
+#header2 {
+  text-align: center;
+  background-color: rgba(0, 153, 204, 0.7);
+  color: white;
+  margin-right: 65%;
+  margin-left: 0%;
+  border-style: solid;
+  border-color: white;
+  padding: 2px;
+  margin-bottom: 7px;
+}
+
+form {
+  text-align: left;
+  color: rgb(0, 77, 102);
+  background-color: rgba(255, 255, 255, 0.9);
+  justify-content: space-between;
+  margin: 0;
+  margin-top: 0px;
+  margin-left: 5%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-right: 50%;
+  margin-bottom: 5px;
+  border-radius: 4px;
+}
+
+list {
+  color: rgb(0, 77, 102);
+  background-color: rgba(255, 255, 255, 0.9);
+  justify-content: space-between;
+  margin-left: 35%;
+  margin-right: 35%;
+  border-radius: 4px;
+  list-style: none;
+
+}
+
+label,
+input {
+  display: block;
+}
+
+label {
+  margin-bottom: 20px;
+}
+
+#main {
+  /*text-align: center;*/
+  color: rgb(0, 77, 102);
+  background-color: rgba(255, 255, 255, 0.9);
+  justify-content: space-between;
+  margin: 0;
+  margin-top: 0px;
+  margin-left: 5%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-right: 25%;
+  margin-bottom: 5px;
+  border-radius: 4px;
+}
+
+.options {
+  text-align: center;
+}
+
+
+#comments {
+  text-align: center;
+}
+
+
+button {
+  background-color: rgba(0, 153, 204, 0.7) !important;
+  border-style: solid;
+  border-color: rgba(0, 153, 204, 0.7) !important;
+  color: white !important;
+  border-radius: 3px;
+
+
+}
+button:hover {
+   background-color: white; 
+    color: rgba(0, 153, 204, 0.7) !important;;
+}
+
+a {
+  background-color: rgba(0, 153, 204, 0.7) !important;
+  border-style: solid;
+  border-color: rgba(0, 153, 204, 0.7) !important;
+  color: white !important;
+  border-radius: 3px;
+  text-decoration: none;
+}
+a:hover {
+   background-color: white !important; 
+    color: rgba(0, 153, 204, 0.7) !important;
+}
+input {
+  margin-top: 2px;
+}
+
+
+
+input[type="checkbox"] {
+  display: inline-block;
+  width: 15px;
+  vertical-align: top;
+}
+
+#loginMsg {
+   background-color: rgba(0, 153, 204, 0.7);
+  border-style: solid;
+  border-color: rgba(0, 153, 204, 0.7);
+  color: white !important;
+
+}
+
+#userMsg {
+  background-color: rgba(0, 153, 204, 0.7);
+  border-style: solid;
+  border-color: rgba(0, 153, 204, 0.7);
+  color: white !important;
+}
+
+#indexMsg {
+  background-color: rgba(0, 153, 204, 0.7);
+  border-style: solid;
+  border-color: rgba(0, 153, 204, 0.7);
+  color: white !important;
+}
+
+#register{
+   background-color: rgba(0, 153, 204, 0.7);
+  border-style: solid;
+  border-color: rgba(0, 153, 204, 0.7);
+  color: white !important;
+}
+
+#register:hover {
+   background-color: white; 
+    color: rgba(0, 153, 204, 0.7) !important;;
+}
+
+#save{
+   background-color: rgba(0, 153, 204, 0.7);
+  border-style: solid;
+  border-color: rgba(0, 153, 204, 0.7);
+  color: white !important;
+}
+
+#save:hover {
+   background-color: white !important; 
+    color: rgba(0, 153, 204, 0.7) !important;;
+}
+
+#delete{
+   background-color: rgba(0, 153, 204, 0.7);
+  border-style: solid;
+  border-color: rgba(0, 153, 204, 0.7);
+  color: white !important;
+}
+
+#delete:hover {
+   background-color: white !important; 
+    color: rgba(0, 153, 204, 0.7) !important;;
+}

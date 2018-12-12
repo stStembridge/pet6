@@ -1,0 +1,57 @@
+
+<html ng-app="myApp"> 
+    
+<head>
+    <title>User Login and Sessions</title>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+        
+<body>  
+    <div id="main">
+    <div ng-controller="myController">
+        <div id="header">
+        <h2 id="welcomeText">Welcome! You are Logged In as
+            <%= username %>
+        </h2>
+        </div>
+        <a id="logoutLink" href="/logout">Logout</a>&nbsp
+        <a id="editLink" href="/user">Update Profile and Preferences</a>
+        <br>
+        <br>
+        <div id="header2">
+        <h2>Pet store:</h2>
+        </div>
+        <h4>Find your new Best friend today! <br>
+        <h5>click on the shopping cart-> <a href="http://18.219.88.251:3004/customer.html">
+          <span class="glyphicon glyphicon-shopping-cart"></span>
+        </a>
+        </h5>
+        </h4>
+        
+        <br>
+        <h3><%= username %>'s Pet Preferences</h3>
+        <h4><%= username %>'s Favorite Pet's Name: <%= color%></h4>
+        <h4>Pet's Breed/Species: <%= breed%></h4>
+        <h4>Pet's Favorite Toy: <%= toy%></h4>
+        <h4>Pet's Favorite Treat: <%= treat%></h4>
+        
+      </p>
+    </div>
+    <hr>
+    <div id="comments">
+    <span id="indexMsg">
+        <%= msg %>
+    </span>
+    </div>
+    <hr>
+</div>
+    
+    <script src="http://code.angularjs.org/1.2.9/angular.min.js"></script>
+    <script src="/javascripts/my_app.js"></script>
+</body>
+      
+</html>

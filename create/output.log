@@ -1,0 +1,176 @@
+nohup: ignoring input
+before / Route
+Connected
+(node:10232) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-07T16:25:41.924Z,
+     originalMaxAge: 2627999999,
+     httpOnly: true },
+  msg: 'Access denied!' }
+/ Route else user
+[0mGET /? [36m302 [0m14.269 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m7.492 ms - 737[0m
+[0mGET /stylesheets/style.css [32m200 [0m9.224 ms - 4080[0m
+[0mGET /favicon.ico [33m404 [0m2.774 ms - 199[0m
+login
+{ _id: 5c083e9cea7d3723ddc26cd7,
+  username: 'tom',
+  hashed_password: 'wNGeRINXH/B8sBpNP1SEEC1/MzxMr6ZKKCH1UDHqYEE=',
+  email: '',
+  __v: 0,
+  color: 'RGB(0, 155, 225)' }
+[0mPOST /login [36m302 [0m35.049 ms - 46[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-07T16:33:13.082Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  user: '5c083e9cea7d3723ddc26cd7',
+  username: 'tom',
+  msg: 'Authenticated as tom',
+  color: 'RGB(0, 155, 225)' }
+/ Route if user
+[0mGET / [32m200 [0m2.922 ms - 979[0m
+[0mGET /javascripts/my_app.js [33m404 [0m3.213 ms - 199[0m
+[0mGET /stylesheets/style.css [36m304 [0m7.030 ms - -[0m
+[0mGET /javascripts/my_app.js [33m404 [0m1.098 ms - 199[0m
+/user Route
+[0mGET /user [32m200 [0m2.498 ms - 1237[0m
+[0mGET /javascripts/my_app.js [33m404 [0m2.376 ms - 199[0m
+[0mGET /stylesheets/style.css [36m304 [0m4.247 ms - -[0m
+[0mGET /javascripts/my_app.js [33m404 [0m0.836 ms - 199[0m
+[0mPOST /user/update [36m302 [0m28.517 ms - 54[0m
+/user Route
+[0mGET /user [32m200 [0m1.627 ms - 1230[0m
+[0mGET /javascripts/my_app.js [33m404 [0m1.546 ms - 199[0m
+[0mGET /stylesheets/style.css [36m304 [0m4.290 ms - -[0m
+[0mGET /javascripts/my_app.js [33m404 [0m0.846 ms - 199[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-07T16:33:22.230Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  user: '5c083e9cea7d3723ddc26cd7',
+  username: 'tom',
+  msg: 'User Updated.',
+  color: 'Black' }
+/ Route if user
+[0mGET / [32m200 [0m2.372 ms - 961[0m
+[0mGET /stylesheets/style.css [36m304 [0m5.377 ms - -[0m
+[0mGET /javascripts/my_app.js [33m404 [0m2.338 ms - 199[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-07T16:39:25.182Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m1.428 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m1.770 ms - 737[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.183 ms - 4080[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-07T16:33:25.503Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  user: '5c083e9cea7d3723ddc26cd7',
+  username: 'tom',
+  msg: 'User Updated.',
+  color: 'Black' }
+/ Route if user
+[0mGET / [36m304 [0m2.394 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m7.387 ms - -[0m
+[0mGET /javascripts/my_app.js [33m404 [0m5.709 ms - 199[0m
+[0mGET /javascripts/my_app.js [33m404 [0m0.977 ms - 199[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T12:14:32.259Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m1.435 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m2.772 ms - 737[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.891 ms - 4080[0m
+[0mGET /favicon.ico [33m404 [0m0.810 ms - 199[0m
+[0mPOST /login [36m302 [0m3.687 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m0.912 ms - 738[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.038 ms - -[0m
+/signup Route
+[0mGET /signup [32m200 [0m1.702 ms - 809[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.283 ms - -[0m
+Begin exports.signup
+after new user exports.signup
+after hashing user exports.signup
+after email user exports.signup
+In exports.signup
+null
+[0mPOST /signup [36m302 [0m8.059 ms - 46[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T12:14:57.132Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  msg: 'Authenticated as opp',
+  user: '5c0c7aa1715c0327f8e30080',
+  username: 'opp' }
+/ Route if user
+[0mGET / [32m200 [0m1.861 ms - 963[0m
+[0mGET /javascripts/my_app.js [33m404 [0m3.355 ms - 199[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.905 ms - -[0m
+[0mGET /javascripts/my_app.js [33m404 [0m0.859 ms - 199[0m
+/user Route
+[0mGET /user [32m200 [0m0.928 ms - 1237[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.387 ms - -[0m
+[0mGET /javascripts/my_app.js [33m404 [0m1.302 ms - 199[0m
+[0mPOST /user/update [36m302 [0m4.239 ms - 54[0m
+/user Route
+[0mGET /user [32m200 [0m0.892 ms - 1230[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.174 ms - -[0m
+[0mGET /javascripts/my_app.js [33m404 [0m0.787 ms - 199[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-08T12:15:09.405Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  msg: 'User Updated.',
+  user: '5c0c7aa1715c0327f8e30080',
+  username: 'opp',
+  color: 'mold' }
+/ Route if user
+[0mGET / [32m200 [0m1.223 ms - 960[0m
+[0mGET /javascripts/my_app.js [33m404 [0m1.550 ms - 199[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.956 ms - -[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-11T11:10:11.652Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  msg: 'Access denied!' }
+/ Route else user
+[0mGET / [36m302 [0m1.419 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m2.385 ms - 737[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.065 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m1.351 ms - 199[0m
